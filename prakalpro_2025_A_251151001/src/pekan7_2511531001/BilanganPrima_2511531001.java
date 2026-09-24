@@ -18,7 +18,8 @@ public class BilanganPrima_2511531001 {
 				System.out.println(a+" adalah bilangan prima");
 			}else {
 				System.out.println(a+" bukan bilangan prima");
-		}
+				input.close();
+			}
 	}
 
 }

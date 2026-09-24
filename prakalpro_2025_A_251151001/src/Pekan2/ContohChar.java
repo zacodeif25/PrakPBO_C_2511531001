@@ -18,7 +18,8 @@ public class ContohChar {
 		//Operasi dengan char (berdasarkan kode Unicode/ASCII)
 		char huruf3 = (char) (huruf1 + 1); //A (65) + 1 = B (66);
 		System.out.println ("Huruf1 + 1 =" + huruf3);
-		
+		char huruf4 =(char) (huruf2+1);
+		System.out.println("Huruf 2 + 1 =" + huruf4);
 		//Char juga bisa disimpan dalam integer (ASCII/Unicode)
 		int kodeHuruf = huruf1;
 		String biner1 = String.format("%8s", Integer.toBinaryString(huruf1)).replace(' ' , '0');

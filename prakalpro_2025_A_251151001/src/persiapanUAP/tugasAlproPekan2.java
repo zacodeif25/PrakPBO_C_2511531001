@@ -1,4 +1,4 @@
-package tugaspraktikum;
+package persiapanUAP;
 
 public class tugasAlproPekan2 {
 

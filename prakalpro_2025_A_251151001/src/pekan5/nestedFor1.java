@@ -9,6 +9,7 @@ public class nestedFor1 {
 				System.out.print("*");
 			}
 			System.out.println();
+
 		}
  
 	}
