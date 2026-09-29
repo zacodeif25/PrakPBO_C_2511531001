@@ -81,7 +81,7 @@ public class Main3 {
 				if (akunAktif == null) {
 					System.out.println("Error : Mohon maaf, Anda belum memiliki nomor rekening!");
 				} else {
-					// TUGAS NO 2
+				
 					System.out.print("Masukkan nominal setor : ");
 					if (!input.hasNextDouble()) {
 						System.out.println("Error : Input harus berupa angka");
@@ -98,6 +98,7 @@ public class Main3 {
 				if (akunAktif == null) {
 					System.out.println("Error : Mohon maaf, Anda belum memiliki nomor rekening!");
 				} else {
+					// TUGAS NO 2
 					System.out.print("Masukkan PIN : ");
 					String pinTarik = input.nextLine();
 					if (!akunAktif.otentikasi(pinTarik)) {

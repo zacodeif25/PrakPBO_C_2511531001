@@ -1,9 +1,9 @@
 package Pekan3;
 
 public class Transaksi2 {
-	String idTransaksi;
-	String jenis;
-	double nominal;
+	private String idTransaksi;
+	private String jenis;
+	private double nominal;
 	
 	public Transaksi2(String id, String jenis, double nominal) {
 		this.idTransaksi = id;
