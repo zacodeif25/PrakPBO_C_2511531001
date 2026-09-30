@@ -105,7 +105,8 @@ public class Main4 {
 					double batas = input.nextDouble();
 					input.nextLine();
 					rekeningBaru = new RekeningGiro (no, nama, saldo, pin, batas);
-					
+				
+				//CHALLENGE NOMOR 1
 				} else if (produk == 3 ) {
 					RekeningVIP vip = new RekeningVIP (no, nama, saldo, pin);
 					vip.tambahBonusSaldo();
